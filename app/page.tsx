@@ -1,5 +1,6 @@
 "use client";
 import { Appbar } from "./components/Appbar";
+import Footer from "./components/Footer";
 import Landingpage from "./components/Landingpage";
 import Redirect from "./components/Redirect";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Appbar/>
       <Redirect/>
       <Landingpage/>
+      <Footer/>
     </div>
   );
 }
